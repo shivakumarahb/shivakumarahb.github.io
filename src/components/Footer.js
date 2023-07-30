@@ -10,7 +10,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Follow our page for more
+          <h1>Follow our page for more</h1>
         </p>
         <p className='footer-subscription-text'>
           its worth a visit.
@@ -32,40 +32,40 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How we do it</Link>
-            <Link to='/'>Experience</Link>
-            <Link to='/'>Life</Link>
-            <Link to='/'>Inventors</Link>
-            <Link to='/'>Creators</Link>
+            <Link to='/sign-up'>Experience</Link>
+            <Link to='/sign-up'>Life</Link>
+            <Link to='/sign-up'>Inventors</Link>
+            <Link to='/sign-up'>Creators</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <Link to='/sign-up'>Contact</Link>
+            <Link to='/sign-up'>Support</Link>
+            <Link to='/sign-up'>Destinations</Link>
             
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>How it works</Link>
-            <Link to='/'>Try it</Link>
-            <Link to='/'>Influence</Link>
+            <Link to='/sign-up'>Submit Video</Link>
+            <Link to='/sign-up'>How it works</Link>
+            <Link to='/sign-up'>Try it</Link>
+            <Link to='/sign-up'>Influence</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/sign-up'>Instagram</Link>
+            <Link to='/sign-up'>Facebook</Link>
+            <Link to='/sign-up'>Youtube</Link>
+            <Link to='/sign-up'>Twitter</Link>
           </div>
         </div>
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/gallery' className='social-logo'>
               WILDRECKSHOTS
               <i class='fa-solid fa-tree' />
             </Link>
@@ -74,7 +74,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='/sign-up'
               target='_blank'
               aria-label='Facebook'
             >
@@ -82,7 +82,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='/sign-up'
               target='_blank'
               aria-label='Instagram' 
             >
@@ -90,7 +90,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='sign-up'
               target='_blank'
               aria-label='Youtube'
             >
@@ -98,7 +98,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='sign-up'
               target='_blank'
               aria-label='Twitter'
             >
@@ -106,7 +106,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='sign-up'
               target='_blank'
               aria-label='LinkedIn'
             >

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { Button_to_bio } from './Button';
+import { Button_to_gallery } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,21 +11,25 @@ function HeroSection() {
       <h1>WILDRECKSHOTS</h1>
       <p>For visuals of most beautiful nature</p>
       <div className='hero-btns'>
-        <Button
+      
+        <Button_to_gallery
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          path='/gallery'
         >
-          GET STARTED
-        </Button>
-        <Button
+          Visit Gallary
+        </Button_to_gallery>
+        
+        <Button_to_bio
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          LIVE <i className='far fa-play-circle' />
-        </Button>
+          Creator
+           <i class="fa-brands fa-instagram"></i>
+        </Button_to_bio>
       </div>
     </div>
   );

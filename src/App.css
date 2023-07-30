@@ -6,8 +6,8 @@
 }
 
 .home,
-.services,
-.products,
+.mountains,
+.oceans,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,7 +16,7 @@
   font-size: 3rem;
 }
 
-.services {
+.oceans {
   background-image: url('images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
   font-size: 100px;
 }
 
-.products {
+.mountains {
   background-image: url('images/img-1.jpg');
   background-position: center;
   background-size: fill;
@@ -35,10 +35,10 @@
 }
 
 .sign-up {
-  background-image: url('images/img-8.jpg');
-  background-position: center;
+  /*background-image: url('images/img-8.jpg');*/
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 50px;
 }
